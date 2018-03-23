@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cyyz.cy_system.infrastructure.dao.QuoteItemMapper">
+  <resultMap id="BaseResultMap" type="com.cyyz.cy_system.domain.model.QuoteItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="StampQuoteID" jdbcType="INTEGER" property="stampquoteid" />
+    <result column="OrderNum" jdbcType="INTEGER" property="ordernum" />
+    <result column="StampOrdersID" jdbcType="INTEGER" property="stampordersid" />
+    <result column="StampMaterial" jdbcType="NVARCHAR" property="stampmaterial" />
+    <result column="cInvStd" jdbcType="NVARCHAR" property="cinvstd" />
+    <result column="iQuality" jdbcType="DOUBLE" property="iquality" />
+    <result column="iUnitPrice" jdbcType="DOUBLE" property="iunitprice" />
+    <result column="CreateDate" jdbcType="DATE" property="createdate" />
+    <result column="cInvName" jdbcType="NVARCHAR" property="cinvname" />
+  </resultMap>
+</mapper>
